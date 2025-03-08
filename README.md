@@ -1,16 +1,6 @@
-# flutter_isolate_example
+## Introduction
+Have you ever noticed your Flutter app’s UI freezing while loading data? This often happens when heavy computational tasks run on the main thread, blocking UI updates. In this blog post, we’ll explore how to improve app performance by leveraging Dart isolates.
 
-A new Flutter project.
+We’ll specifically look at using the compute function to offload heavy JSON processing tasks onto a separate thread, preventing UI lag. If you’re building Flutter apps and want smoother user experiences, this is a must-know technique!
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Full blog on [Medium](https://medium.com/@ishuprabhakar/boosting-flutter-app-performance-with-dart-isolates-46a8ec9668d3)
